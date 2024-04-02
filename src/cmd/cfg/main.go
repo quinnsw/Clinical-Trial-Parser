@@ -10,13 +10,21 @@ import (
 	"os"
 	"strings"
 
-	"github.com/facebookresearch/Clinical-Trial-Parser/src/common/conf"
-	"github.com/facebookresearch/Clinical-Trial-Parser/src/common/param"
-	"github.com/facebookresearch/Clinical-Trial-Parser/src/common/util/fio"
-	"github.com/facebookresearch/Clinical-Trial-Parser/src/common/util/timer"
-	"github.com/facebookresearch/Clinical-Trial-Parser/src/ct/studies"
-	"github.com/facebookresearch/Clinical-Trial-Parser/src/ct/units"
-	"github.com/facebookresearch/Clinical-Trial-Parser/src/ct/variables"
+	// "github.com/facebookresearch/Clinical-Trial-Parser/src/common/conf"
+	// "github.com/facebookresearch/Clinical-Trial-Parser/src/common/param"
+	// "github.com/facebookresearch/Clinical-Trial-Parser/src/common/util/fio"
+	// "github.com/facebookresearch/Clinical-Trial-Parser/src/common/util/timer"
+	// "github.com/facebookresearch/Clinical-Trial-Parser/src/ct/studies"
+	// "github.com/facebookresearch/Clinical-Trial-Parser/src/ct/units"
+	// "github.com/facebookresearch/Clinical-Trial-Parser/src/ct/variables"
+
+	"github.com/quinnsw/Clinical-Trial-Parser/src/common/conf"
+	"github.com/quinnsw/Clinical-Trial-Parser/src/common/param"
+	"github.com/quinnsw/Clinical-Trial-Parser/src/common/util/fio"
+	"github.com/quinnsw/Clinical-Trial-Parser/src/common/util/timer"
+	"github.com/quinnsw/Clinical-Trial-Parser/src/ct/studies"
+	"github.com/quinnsw/Clinical-Trial-Parser/src/ct/units"
+	"github.com/quinnsw/Clinical-Trial-Parser/src/ct/variables"	
 
 	"github.com/golang/glog"
 )
